@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>상속</title>
     <style>
-        div {
-            padding: 3px;
+        div {/* 부모태그에 상속을 줬다. color는 자동 상속 */
+            padding: 3px;/* padding은 내부 여백 : 상하좌우 3px */
             color: red;
         }
 
-        p {
-            padding: inherit;
+        p {/* padding은 자동으로 상속이 안된다. 상속은 가능!! 자동으로 상속이 안되는 것은 우선순위가 낮다는 의미 */
+            padding: inherit;/* 부모값을 가져오는 값*/
             color: blue;
         }
     </style>
