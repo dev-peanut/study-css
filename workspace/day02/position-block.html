@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        /* position:relative를 써서 다 겹치게 하기 */
+        div {
+            position: relative;/* 내가 있는 기준을 기준으로 한다.  */
+            top: 0;/* 각자 기준점 위치에서 top 0이다 */
+            height: 24px;
+        }
+
+        #cookie {
+            background-color: lightpink;
+            z-index: 1;/* default : 0 이마트ssg으로 확인해보기 */
+        }
+
+        #scorn {
+            background-color: wheat;
+            top: -24px;/* 없어진게 아니고 겹친것 기준점이 각자 0이기때문에 -를 줘야한다. */
+        }
+
+        #coffee {
+            background-color: saddlebrown;
+            top: -48px;
+            z-index: 2;/* 겹쳐보였을 경우 뭐가 먼저 보일지 정하는 기준 인덱스 번호 순서대로 */
+        }
+
+        #ice-cream {
+            background-color: deepskyblue;
+            top: -72px;
+        }
+
+        #cake {
+            background-color: peru;
+            top: -96px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="cookie">
+        <span>쿠키</span>
+    </div>
+    <div id="scorn">
+        <span>스콘</span>
+    </div>
+    <div id="coffee">
+        <span>커피</span>
+    </div>
+    <div id="ice-cream">
+        <span>아이스크림</span>
+    </div>
+    <div id="cake">
+        <span>케이크</span>
+    </div>
+</body>
+</html>

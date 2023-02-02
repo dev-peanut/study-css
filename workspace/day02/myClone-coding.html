@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>싱그러운 집</title>
+    <link rel="stylesheet" href="myClone-coding.css">
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <div id="wrap" class="sub blank type3">
+        <header>
+        </header>
+        <section id="container">
+            <article class="join">
+                <h1 class="title">
+                    <span class="sp">싱그러운 집</span>
+                    회원가입
+                </h1>
+                <div class="join-page">
+                    <dl>
+                        <dt>이메일</dt>
+                        <dd >
+                            <label>
+                                <input type="email" name="email" id="email" onblur="funEmailCheck()" class="frmbox wfull" autofocus="" placeholder="이메일">
+                            </label>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>비밀번호</dt>
+                        <dd >
+                            <label>
+                                <input type="password" name="password" id="password1" class="frmbox wfull" placeholder="비밀번호">
+                            </label>
+                        </dd>
+                        <dd>
+                            <label>
+                                <input type="password" name="repassword" id="password2" class="frmbox wfull" placeholder="비밀번호확인">
+                            </label>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            별명
+                            <span class="fc3">(변경불가)</span>
+                        </dt>
+                        <dd >
+                            <label>
+                                <input type="text" name="nickname" id="nickname" class="frmbox wfull" placeholder="별명(2~10자)">
+                            </label>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            추천인
+                            <span class="fc3">(선택사항)</span>
+                        </dt>
+                        <dd >
+                            <label>
+                                <input type="text" name="recommendid" id="recommendid" class="frmbox wfull" placeholder="추천인별명">
+                            </label>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            약관동의
+                        </dt>
+                        <dd class="er">
+                            <div class="policy">
+                                <div class="check all">
+                                    <label>
+                                        전체동의
+                                        <input type="button">
+                                        <span></span>
+                                    </label>
+                                </div>
+                                <div class="check er"><input type="button"></div>
+                                <div class="check er"><input type="button"></div>
+                                <div class="check"><input type="button"></div>
+                            </div>
+                        </dd>
+                    </dl>
+                 </div>
+<!--                 <button type="button" onclick="funCheck();">
+                    회원가입 완료
+                </button>
+ -->               
+            </article>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+
+body {
+    font: 12px/1.2 'Spoqa Han Sans', sans-serif;
+    color: #4d4d4d;
+}
+
+body, div, dl, dt, dd, th, td, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, p, blockquote, button, input, textarea { 
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+
+section, article, header, footer, nav, aside, hgroup, figure, figcaption {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{content:""; display:block; clear:both}
+
+#wrap {
+    position: relative;
+    min-width: 320px;
+    overflow: hidden;
+    letter-spacing: -0.05em;
+}
+
+#container {
+    position: relative;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+}
+
+.title .sp {
+    margin-right: 11px;
+    width: 155px;
+    height: 30px;
+}
+
+h1 .sp {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    vertical-align: middle;
+    background-image: url('https://www.shouse.garden/images/common/bi.png');
+    background-size: 100% 100%;
+    font-size: 0;
+    background-repeat: no-repeat;
+}
+
+.title {
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #009a3e;
+    margin-bottom: 30px;
+}
+
+.join {
+    margin: 0 auto;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding-top: 42px;
+    padding-bottom: 77px;
+}
+
+.join dt {
+    display: block;
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 1.4em;
+    font-weight: 700;
+    color: #222624;
+}
+
+.join dl + dl, .join .btn_submit {
+    margin-top: 40px;
+}
+
+.join dd + dd {
+    margin-top: 10px;
+}
+
+.join .error {
+    margin-bottom: -10px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #e05438;
+}
+
+dt .fc3 {
+    color: #b3b3b3 !important;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.frmbox {
+    text-indent: 19px;
+    height: 50px !important;
+    font-size: 15px !important;
+    color: #808080 !important;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 4px !important;
+    box-sizing: border-box;
+}
+
+.wfull {
+   width: 100% !important;
+}
+
+input::placeholder {
+    color:  #b3b3b3;
+}
+
+.join-page dd {
+    position: relative;
+}
+
+.join-page .policy {
+    padding-bottom: 13px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.join-page .check {
+    position: relative;
+    padding-left: 48px;
+    padding-left: 18px;
+    line-height: 22px;
+    font-size: 15px;
+    color: #222624;
+}
+
+.join-page .check.all {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: 700;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.join-page .check label span {
+    position: absolute;
+    top: calc(50% - 11px);
+    right: 13px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
