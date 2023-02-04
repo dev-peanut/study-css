@@ -1,0 +1,367 @@
+
+.join {
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.join dt {
+    display: block;
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 1.4em;
+    font-weight: 700;
+    color: #222624;
+}
+
+.join .title {
+    margin-bottom: 30px;
+}
+
+.join dl + dl, .join .btn_submit {
+    margin-top: 40px;
+}
+
+.join dd + dd {
+    margin-top: 10px;
+}
+
+.thinfont {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+.form_member dd {
+    position: relative;
+}
+
+.form_member .policy {
+    padding-bottom: 13px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.form_member .check {
+    position: relative;
+    padding-left: 18px;
+    line-height: 22px;
+    font-size: 15px;
+    color: #222624;
+}
+
+.form_member .check.all {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: 700;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.form_member .check label span {
+    position: absolute;
+    top: calc(50% - 11px);
+    right: 13px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.join .check.all + .check {
+    margin-top: 13px;
+}
+
+.form_member .check:not(.all) + .check {
+    margin-top: 10px;
+}
+
+.form_member .check button {
+    font-size: inherit;
+}
+
+.button_complete {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.button_complete.green {
+    color: #fff !important;
+    background-color: #009a3e;
+}
+
+.form_member .check label input:checked + span {
+    background: url('https://www.shouse.garden/images/common/check.png') center center no-repeat;
+    background-size: 14px auto;
+    border-color: #009a3e;
+}
+
+/* ==========================================errer======================================== */
+.info dd:not(.er) .error {
+    display: none;
+}
+
+.join .error {
+    display: none;
+    line-height: 1.57;
+    padding: 0.4em 0 0.5em;
+}
+
+.info .error {
+    display: none;
+    margin-bottom: -10px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #e05438;
+}
+
+/* login */
+
+.login {
+    padding-top: 174px;
+    padding-bottom: 228px;
+}
+
+.login .home a {
+    display: block;
+}
+
+h1 .title_form {
+    vertical-align: top;
+    background-image: url('https://www.shouse.garden/images/common/bi.png');
+    background-size: 100% 100%;
+}
+
+.login .home .title_form {
+    width: 209px;
+    height: 41px;
+}
+
+.button_complete.black {
+    color: #fff !important;
+    background-color: #000;
+}
+
+.form_element {
+    position: relative;
+    text-align: left;
+}
+
+/* ====================================clearfix============================== */
+.form_element.check label > span::before {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.form_element label > span::before {
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+}
+
+.form_element label > span::before, .form_element label > span::after {
+    content: "";
+    position: absolute;
+}
+
+.login .form_element label {
+    font-size: 15px;
+    color: #222624;
+}
+
+.form_element label {
+    padding-left: 32px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.login .link {
+    font-size: 0;
+    margin-right: -11px;
+}
+
+.login .link a {
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 22px;
+    font-size: 13px;
+    color: #808080;
+}
+
+.login .link a + a {
+    position: relative;
+}
+
+.login .link a + a::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 4px);
+    left: 0;
+    width: 1px;
+    height: 10px;
+    background-color: #808080;
+}
+
+.login .point_box.sm {
+    font-size: 11px;
+    width: 80px;
+    height: 30px;
+    line-height: 25px;
+    right: 0;
+    bottom: -36px;
+    padding-top: 4px;
+    background-image: url('https://www.shouse.garden/images/common/point_box.png?ver=210720');
+}
+
+.login .point_box.md {
+    top: -36px;
+    right: 0;
+    width: 147px;
+    height: 36px;
+    line-height: 29px;
+    background-image: url('https://www.shouse.garden/images/common/point_box_md.png?ver=210720');
+    background-size: cover;
+    margin-top: -10px;
+}
+
+.login .point_box {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    box-sizing: border-box;
+}
+
+.login dl {
+    position: relative;
+    margin-top: 60px !important;   
+}
+
+.login dt {
+    font-size: 13px;
+    line-height: 52px;
+    color: #808080;
+    position: relative;
+}
+
+.login dt > span {
+    display: inline-block;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+    padding: 0 10px;
+}
+
+.login dt::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background: #d9d9d9;
+}
+
+.login dd .button_complete span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.login dd .button_complete .icon {
+    position: relative;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 48px;
+    height: 48px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: -3px;
+}
+
+/* 카카오 */
+.button_complete.kakao {
+    color: #47292b;
+    background-color: #ffc20f;
+}
+
+.login dd .button_complete.kakao .icon {
+    background-image: url('https://www.shouse.garden/images/ico/sns_kt.png');
+    background-size: 20px auto;
+}
+
+
+/* 네이버 */
+.button_complete.naver {
+    color: #fff;
+    background-color: #2db400;
+}
+
+.login dd .button_complete.naver .icon {
+    background-image: url('https://www.shouse.garden/images/ico/sns_n.png');
+    background-size: 18px auto;
+}
+
+/* 페이스북 */
+.button_complete.facebook {
+    color: #fff;
+    background-color: #3a5894;
+}
+
+.login dd .button_complete.facebook .icon {
+    background-image: url('https://www.shouse.garden/images/ico/sns_fb.png');
+    background-size: 11px auto;
+}
+
+/* 애플 */
+.button_complete.apple {
+    color: #000;
+    background-color: #d9d9d9;
+}
+
+.login dd .button_complete.apple .icon {
+    background-image: url('https://www.shouse.garden/images/ico/sns_ap.png');
+    background-size: 16px auto;
+}
+
+/* find password */
+
+.form_member dd {
+    position: relative;
+}
+
+.form_member dd + dd:not(.error) {
+    margin-top: 10px;
+}
+
+.form_member .txt {
+    margin-top: 15px;
+    margin-bottom: -2px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #222624;
+    white-space: nowrap;
+}
+
+.reset_password {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.reset_password .form_member {
+    padding-top: 30px;
+}
+
+.reset_password .space {
+    min-height: calc(50vh - 267.5px);
+}
+
+.form_member dt label{
+    line-height: 58px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222624;
+}

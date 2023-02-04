@@ -1,0 +1,364 @@
+@media (max-width: 1246px) {
+
+#header .home a {
+    width: 108.5px;
+    height: 26px;
+}
+
+.blank.type3 #container {
+    min-height: calc(100vh - 28px);
+    min-height: calc(100vh - 28px - env(safe-area-inset-bottom));
+}
+
+#container {
+    padding-top: 21px;
+    padding-bottom: 70px;
+}
+
+.title_form.c {
+    background-image: url('https://www.shouse.garden/images/common/sp_common_t.png');
+    background-size: 112px auto;
+}
+
+.t_hide {
+    display: none !important;
+}
+
+.p_hide {
+    display: inherit !important;
+}
+
+.login .space {
+    min-height: calc(50vh - 369px);
+}
+
+.common:not(.holder) {
+    max-width: 375px;
+}
+
+
+#header .inner {
+    height: 28px;
+    padding: 9px 0;
+}
+
+.holder:not(.pwrapper), .pholder {
+    margin-right: 23px;
+    margin-left: 23px;
+}
+
+.button_complete.h50 {
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+}
+
+.login {
+    padding-top: 123px;
+}
+
+input.frmbox {
+    text-indent: 13px;
+}
+
+.frmbox {
+    height: 45px !important;
+    font-size: 14px !important;
+}
+
+.mt10 {
+    margin-top: 7px !important;
+}
+
+.mt50 {
+    margin-top: 35px !important;
+}
+
+#header .info.fl {
+    padding-top: 4px;
+}
+
+#header .info.fl .title_form {
+    width: 18px;
+    height: 18px;
+}
+
+
+.login .home .title_form {
+    width: 146px;
+    height: 28px;
+}
+
+#header .back {
+    height: 28px;
+    line-height: 28px;
+}
+
+
+#header .util {
+    line-height: 28px;
+    font-size: 11px;
+}
+
+#header .info.fl li + li {
+    margin-left: 2px;
+}
+
+#header .info.fr li + li {
+    margin-left: 14px;
+}
+
+.login .point_box.sm {
+    font-size: 10px;
+    width: 72px;
+    height: 27px;
+    line-height: 23px;
+    bottom: -31px;
+    padding-top: 3px;
+    background-size: cover;
+}
+
+.login dd .button_complete.naver .icon {
+    background-size: 13px auto;
+}
+
+.login dd .button_complete .inner {
+    min-width: 160px;
+}
+
+.login dd .button_complete.kakao .icon {
+    background-size: 14px auto;
+}
+
+.login dd .button_complete.facebook .icon {
+    background-size: 8px auto;
+}
+
+}
+
+@media (max-width: 767px) {
+    .blank.type3 #container {
+        min-height: calc(100vh - 53px);
+        min-height: calc(100vh - 53px - env(safe-area-inset-bottom));
+    }
+
+    .blank:not(.type2) #container {
+        padding-bottom: 0;
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    #container {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    #header .subnav .sub, #wrap:not(.sub) #header .back, .sub #header .nav, .sub:not(.search) #header .search, .view #header .scrap, .blank #header .scrap, .search #header .scrap, .searchviw #header .scrap, .view #header .cart, .blank #header .cart, .search #header .cart, .searchviw #header .cart, .full #header .home a, .blank.type2 #header .home a, .blank.type3 #header .home a {
+        display: none !important;
+    }
+    
+    .view:not(.full) #header .top, .view2 #header .top, .blank:not(.type2) #header .top {
+        z-index: 999;
+        height: 52px;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    
+    .sub #header .home a {
+        margin-left: 40px;
+        width: 30px;
+    }
+    
+    .common:not(.holder) {
+        max-width: calc(100% - 30px);
+    }
+    
+    #header .home a {
+        width: 108px;
+        height: inherit;
+        line-height: 53px;
+    }
+    
+    #header .top {
+        position: relative;
+        padding-top: 0;
+        text-align: center;
+    }
+    
+    #header .home {
+        height: 53px;
+    }
+    
+    .login_intro .home a {
+        margin: calc(22vh - 36px) 0 26.5vh;
+    }
+    
+    .title_form.c {
+        background-image: url('https://www.shouse.garden/images/common/sp_common_m.png');
+        background-size: 100px auto;
+    }
+
+    .login {
+        padding: 36px 15px 0;
+    }
+    
+    .t_hide {
+        display: inherit !important;
+    }
+    
+    .mt30m {
+        margin-top: 30px !important;
+    }
+    
+    .mt10m {
+        margin-top: 10px !important;
+    }
+    
+    .frmbox {
+        height: 40px !important;
+    }
+    
+    .login .home .title_form {
+        width: 183px;
+        height: 35px;
+        background-image: url('https://www.shouse.garden/images/common/bi_white.png');
+    }
+    
+    .login_intro {
+        background: url('https://www.shouse.garden/images/img/login_bg.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    
+    .mobile #header .title {
+        color: #fff;
+    }
+
+    .mobile #header .back .title_form {
+        background-position: -42px -37px;
+    }
+    
+    #wrap.mobile #header {
+        background: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    
+    #header .title {
+        z-index: -1;
+        margin-top: -53px;
+        padding: 0 100px;
+        line-height: 53px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #222624;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    
+    .title {
+        font-size: 22px;
+    }
+    
+    #header .util {
+        line-height: 28px;
+        font-size: 11px;
+    }
+    
+    .m_hide {
+        display: none !important;
+    }
+    
+    #header .holder {
+        position: static;
+    }
+    
+    #header .inner {
+        height: auto;
+        padding: 0;
+        border-bottom: 0;
+    }
+    
+    .moblie #header .back .title_form {
+        background-position: -42px -37px;
+    }
+    
+    #header .back .title_form {
+        width: 20px;
+        height: 13px;
+        background-position: -21px -37px;
+    }
+    
+    #header .back {
+        left: 0;
+        width: 30px;
+        padding-left: 10px;
+        height: 53px;
+        line-height: 53px;
+    }
+    
+    .holder:not(.pwrapper), .pwrapper.holder, .pwrapper:not(.holder) .wholder, .mholder {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    .button_complete.h40m {
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+    .login dd .button_complete .icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    /* 모바일-카카오톡 SNS1 */
+
+    .login dd .button_complete.kakao {
+        background-color: #fbe10f;
+    }
+
+    .login dd .button_complete.kakao .icon {
+        background-size: 17px auto;
+    }
+
+    
+    /* 모바일-네이버 SNS2 페이스북 SNS3 애플 SNS4*/
+    .login dd .button_complete.naver, .login dd .button_complete.facebook, .login dd .button_complete.apple {
+        background-color: #fff;
+        color: #000;
+    }
+
+    /* 네이버 로고 */
+    .login dd .button_complete.naver .icon {
+        background-image: url('https://www.shouse.garden/images/ico/sns_n2.png');
+    }
+
+    /* 페이스북 로고 */
+    .login dd .button_complete.facebook .icon {
+        background-size: 9px auto;
+        background-image: url('https://www.shouse.garden/images/ico/sns_fb2.png');
+    }
+
+    /* 애플 로고 */
+    .login dd .button_complete.apple .icon {
+        background-size: 13px auto;
+    }
+
+    .login .more {
+        margin-top: 28px;
+    }
+
+    .login .more a {
+        font-size: 14px;
+        color: #fff;
+    }
+
+
+
+    
+    
+    }
+    
+    
